@@ -2,11 +2,11 @@ import { DataTypes, Model, Optional } from "sequelize";
 import { sequelize } from "../database";
 
 export interface ICourse{
-    id: number,
-    name: string,
-    synopsis: string,
-    thumbnailUrl: string,
-    featured: boolean,
+    id: number
+    name: string
+    synopsis: string
+    thumbnailUrl: string
+    featured: boolean
     categoryId: Number 
 }
 

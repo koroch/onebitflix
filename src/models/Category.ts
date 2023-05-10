@@ -2,8 +2,8 @@ import { DataTypes, Model, Optional } from "sequelize";
 import { sequelize } from "../database";
 
 export interface ICategory{
-    id: number,
-    name: string,
+    id: number
+    name: string
     position: number
 }
 
