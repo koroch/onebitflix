@@ -14,7 +14,7 @@ export interface ICourseCreationAttributes extends Optional<ICourse, 'id' | 'thu
 
 export interface ICourseInstace extends Model<ICourse, ICourseCreationAttributes>, ICourse{}
 
-export const Course = sequelize.define<ICourseInstace, ICourse>('Courses', {
+export const Course = sequelize.define<ICourseInstace, ICourse>('Course', {
     id: {
         allowNull: false,
         autoIncrement: true,
